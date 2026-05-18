@@ -206,6 +206,24 @@ section h2::after {
 .card:hover .quackpack-icon {
   transform: scale(1.06) rotate(-2deg);
 }
+.duckclient-icon {
+  width: 95px;
+  height: 95px;
+
+  object-fit: contain;
+
+  display: block;
+  margin: 0 auto 16px;
+
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+}
+
+/* Hover animation */
+.card:hover .duckclient-icon {
+  transform: scale(1.08) rotate(-4deg);
+}
 /* Visible animation */
 .card.show {
   opacity: 1;
