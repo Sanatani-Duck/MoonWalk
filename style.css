@@ -186,13 +186,6 @@ section h2::after {
   transform: scale(1.08);
 }
 
-/* Hover animation */
-.card:hover .fire-icon {
-  transform: scale(1.08);
-  filter:
-    drop-shadow(0 0 18px rgba(255, 180, 0, 0.75));
-}
-
 /* Visible animation */
 .card.show {
   opacity: 1;
