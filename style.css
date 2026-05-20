@@ -94,6 +94,41 @@ body {
   justify-content: center;
 }
 
+.moon-logo {
+
+  width: 220px;
+
+  height: auto;
+
+  object-fit: contain;
+
+  display: block;
+
+  filter:
+    drop-shadow(
+      0 0 24px
+      rgba(255,255,255,0.12)
+    );
+
+  transition:
+    transform 0.5s ease,
+    filter 0.5s ease;
+}
+
+/* Hover animation */
+.moon-logo:hover {
+
+  transform:
+    scale(1.03)
+    rotate(-2deg);
+
+  filter:
+    drop-shadow(
+      0 0 34px
+      rgba(255,255,255,0.22)
+    );
+}
+
 .brand img {
 
   width: 140px;
